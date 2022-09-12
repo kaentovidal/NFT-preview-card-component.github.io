@@ -114,3 +114,9 @@ hr{
     color: var(--Cyan);
     cursor: pointer;
 }
+
+
+
+.attribution { font-size: 11px; text-align: center; color: antiquewhite;}
+.attribution a { color: hsl(0, 0%, 100%); }
+.attribution a:hover { color: hsl(199, 100%, 46%); }
