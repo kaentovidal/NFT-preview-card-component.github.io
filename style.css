@@ -49,16 +49,18 @@ main .img img{
     justify-content: center;
     align-items: center;
     opacity: 0;
+    cursor: pointer;
 }
 .view:hover{
     opacity: .5;
 }
 .title{
-    padding: 1rem;
+    padding: 0 1rem 1rem 1rem;
     font-size: 20px;
 }
 .title:hover{
     color: var(--Cyan);
+    cursor: pointer;
 }
 p{
     padding: 0 1rem 1rem 1rem;
@@ -110,4 +112,5 @@ hr{
 }
 .profile span span:hover{
     color: var(--Cyan);
+    cursor: pointer;
 }
