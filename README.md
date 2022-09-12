@@ -1,3 +1,5 @@
+# nft card component
+[image preview](./design/desktop-preview.jpg)
 # Front-end Style Guide
 
 ## Layout
