@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+:root{
+    /** Colors */
+    /*? Primary */
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    /*? Neutral */
+    --Very-dark-blue-main: hsl(217, 54%, 11%);
+    --Very-dark-blue-card : hsl(216, 50%, 16%);
+    --Very-dark-blue-line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+*{
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: var(--White);
+    text-decoration: none;
+}
+html{
+    background-color: var(--Very-dark-blue-main);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    border-radius: .9rem;
+    width: 350px;
+    height: fit-content;
+    background: var(--Very-dark-blue-card);
+    box-shadow: 0 50px 10px 15px var(--Very-dark-blue-main);
+}
+main .img img{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.view{
+    margin: 1rem;
+    position: absolute;
+    border-radius: .9rem;
+    background-color: var(--Soft-blue);
+    width: 318px;
+    height: 318px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+.view:hover{
+    opacity: .5;
+}
+.title{
+    padding: 1rem;
+    font-size: 20px;
+}
+.title:hover{
+    color: var(--Cyan);
+}
+p{
+    padding: 1rem;
+    font-size: 18px;
+    color: var(--Soft-blue);
+}
+.days{
+    width: 100%;
+    padding: 1rem;
+    font-size: 20px;
+}
+.days .one{
+    display: inline;
+    position: relative;
+    color: var(--Cyan);
+}
+.days .one span{
+    color: var(--Cyan);
+}
+.days .two {
+    float:right;
+    color: var(--Soft-blue);
+}
+.days span{
+    color: var(--Soft-blue);
+}
+hr{
+    margin: 1rem;
+    border: 1px solid var(--Very-dark-blue-line);
+}
+.profile {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 18px;
+}
+.profile img{
+    border: 1px solid var(--White);
+    border-radius: 50%;
+    width: 50px;
+}
+.profile span{
+    color: var(--Soft-blue);
+}
+.profile span a:hover{
+    color: var(--Cyan);
+}
