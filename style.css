@@ -61,13 +61,13 @@ main .img img{
     color: var(--Cyan);
 }
 p{
-    padding: 1rem;
+    padding: 0 1rem 1rem 1rem;
     font-size: 18px;
     color: var(--Soft-blue);
 }
 .days{
     width: 100%;
-    padding: 1rem;
+    padding: 0 1rem 1rem 1rem;
     font-size: 20px;
 }
 .days .one{
@@ -95,16 +95,19 @@ hr{
     display: flex;
     align-items: center;
     gap: .5rem;
-    font-size: 14px;
+    font-size: 16px;
 }
 .profile img{
     border: 1px solid var(--White);
     border-radius: 50%;
-    width: 30px;
+    width: 40px;
 }
 .profile span{
     color: var(--Soft-blue);
 }
-.profile span a:hover{
+.profile span span{
+    color: var(--White);
+}
+.profile span span:hover{
     color: var(--Cyan);
 }
