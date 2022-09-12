@@ -1,5 +1,5 @@
 # nft card component
-[](./design/desktop-preview.jpg)
+![nft card component preview](./design/desktop-preview.jpg)
 # Front-end Style Guide
 
 ## Layout
